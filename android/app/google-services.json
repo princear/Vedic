@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760826512936",
+    "project_id": "healthapp-9c647",
+    "storage_bucket": "healthapp-9c647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760826512936:android:c6d9f345126fa882b7d71d",
+        "android_client_info": {
+          "package_name": "com.vedicsensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760826512936-eubnaos34e2t4n9mtivi85hda44f5m5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0lC4-mURB6RF5XTX5_m7LDGSMcMZg0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760826512936-eubnaos34e2t4n9mtivi85hda44f5m5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+diff --git a/android/app/build.gradle b/android/app/build.gradle
+index 07fe5c7..c4085f9 100644
+--- a/android/app/build.gradle
++++ b/android/app/build.gradle
+@@ -219,12 +219,12 @@ android {
+             keyAlias 'androiddebugkey'
+             keyPassword 'android'
+         }
+-        // release {
+-      //     storeFile file('vedic-dev.keystore')
+-      //     storePassword System.console().readLine("\nKeystore password:")
+-      //     keyAlias System.console().readLine("\nAlias: ")
+-      //     keyPassword System.console().readLine("\nAlias password: ")
+-      // }
++        release {
++           storeFile file('mm_vedic_sensor.keystore')
++           storePassword 'madmachine'
++           keyAlias 'mm_vedic_sensor'
++           keyPassword 'madmachine'
++       }
+     }
+     buildTypes {
+         debug {
+@@ -233,7 +233,7 @@ android {
+         release {
+             // Caution! In production, you need to generate your own keystore file.
+             // see https://reactnative.dev/docs/signed-apk-android.
+-            signingConfig signingConfigs.debug
++            signingConfig signingConfigs.release
+             minifyEnabled enableProguardInReleaseBuilds
+             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+         }
